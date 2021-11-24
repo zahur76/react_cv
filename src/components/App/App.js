@@ -17,11 +17,11 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Routes className="App">
-            <Route path= "https://zahur76.github.io/react_cv" element={<Home />} />
-            <Route path="https://zahur76.github.io/react_cv/education" element={<Education />} />
-            <Route path="https://zahur76.github.io/react_cv/experience" element={<Experience />} />
-            <Route path="https://zahur76.github.io/react_cv/skills" element={<Skills />} />
-            <Route path="/https://zahur76.github.io/react_cv/projects" element={<Projects />} />                            
+            <Route path= "https://app.netlify.com/sites/elastic-agnesi-97d2bf/" element={<Home />} />
+            <Route path="https://app.netlify.com/sites/elastic-agnesi-97d2bf/education" element={<Education />} />
+            <Route path="https://app.netlify.com/sites/elastic-agnesi-97d2bf/experience" element={<Experience />} />
+            <Route path="https://app.netlify.com/sites/elastic-agnesi-97d2bf/skills" element={<Skills />} />
+            <Route path="https://app.netlify.com/sites/elastic-agnesi-97d2bf/projects" element={<Projects />} />                            
         </Routes> 
       </BrowserRouter>      
            

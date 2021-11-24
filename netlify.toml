@@ -1,15 +1,4 @@
 [[redirects]]
-  from = "/education"
-  to = "https://modest-pasteur-54d20a.netlify.app/education"
-
-[[redirects]]
-  from = "/experience"
-  to = "https://modest-pasteur-54d20a.netlify.app/experience"
-
-[[redirects]]
-  from = "/skills"
-  to = "https://modest-pasteur-54d20a.netlify.app/skills"
-
-[[redirects]]
-  from = "/projects"
-  to = "https://modest-pasteur-54d20a.netlify.app/projects"
+  from = "/*"
+  to = "/index.html"
+  status = 200

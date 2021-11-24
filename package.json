@@ -1,6 +1,5 @@
 {
-  "name": "react-cv",
-  "homepage": "https://main--elastic-agnesi-97d2bf.netlify.app/",
+  "name": "react-cv",  
   "version": "0.1.0",
   "private": true,
   "dependencies": {

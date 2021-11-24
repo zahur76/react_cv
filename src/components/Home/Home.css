@@ -1,0 +1,140 @@
+.row {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.react {
+    width: 40px;
+}
+
+.power {
+    text-align: right !important;
+    font-style: italic;
+}
+
+.links #active {
+    font-style: oblique;    
+    color: rgb(255, 255, 255) !important;
+}
+
+.col-3 {
+    padding: 0;
+}
+
+.details {    
+    border-bottom: 1px solid black;
+}
+
+.info-title {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.info {
+    font-weight: 600;
+}
+
+.links {   
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 10px;   
+}
+
+.btn {
+    width: 100%;
+    border-radius: 0;
+}
+
+.link-1 {
+    font-weight: 500;
+    padding: 10px;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.link-1:hover {
+    background-color: rgb(240, 146, 146);
+}
+
+.link-2 {
+    font-weight: 500;
+    padding: 10px;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+.link-2:hover {
+    background-color: rgb(203, 211, 221);
+}
+
+.link-3{
+    font-weight: 500;
+    padding: 10px;
+    background-color: #E0BBE4;
+    text-align: center;
+}
+
+.link-3:hover {
+    background-color: #e4d3e6;
+}
+
+.link-4 {
+    font-weight: 500;
+    padding: 10px;
+    background-color:#FEC8D8;
+    text-align: center;
+}
+
+.link-4:hover {
+    background-color: #f8dee6;
+}
+
+.statement {
+    font-weight: 500;
+}
+
+.position {
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (max-width: 992px){
+    .links {
+        margin-top: 40px;
+    }    
+}
+
+
+@media screen and (max-width: 768px){
+    .links {
+        margin-top: 10px;
+    }
+      
+    .link-1, .link-2, .link-3, .link-4 {
+        font-size: 12px;
+    }
+
+    .info-title {
+        font-size: 20px;
+    }
+    
+} 
+
+@media screen and (max-width: 576px){   
+    img {
+        width: 50%;       
+    }
+    
+    .link-1, .link-2 {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}

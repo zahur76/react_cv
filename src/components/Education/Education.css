@@ -1,0 +1,23 @@
+.title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.title-edu {
+    text-align: center;
+    font-weight: 500;
+    padding: 0;
+}
+
+.bg {
+    background: rgb(239, 242, 243);
+}
+
+@media screen and (max-width: 576px){   
+    .title-edu {
+        font-size: 12px;        
+    }
+    
+}

@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Routes className="App">
-            <Route path= "https://zahur76.github.io/react_cv/" element={<Home />} />
+            <Route path= "https://zahur76.github.io/react_cv" element={<Home />} />
             <Route path="https://zahur76.github.io/react_cv/education" element={<Education />} />
             <Route path="https://zahur76.github.io/react_cv/experience" element={<Experience />} />
             <Route path="https://zahur76.github.io/react_cv/skills" element={<Skills />} />

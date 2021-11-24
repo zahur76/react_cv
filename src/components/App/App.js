@@ -17,11 +17,11 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Routes className="App">
-            <Route path= "https://619e33a3f69a153a500b1449--elastic-agnesi-97d2bf.netlify.app/" element={<Home />} />
-            <Route path="https://619e33a3f69a153a500b1449--elastic-agnesi-97d2bf.netlify.app/education" element={<Education />} />
-            <Route path="https://619e33a3f69a153a500b1449--elastic-agnesi-97d2bf.netlify.app/experience" element={<Experience />} />
-            <Route path="https://619e33a3f69a153a500b1449--elastic-agnesi-97d2bf.netlify.app/skills" element={<Skills />} />
-            <Route path="https://619e33a3f69a153a500b1449--elastic-agnesi-97d2bf.netlify.app/projects" element={<Projects />} />                            
+            <Route path= "https://main--elastic-agnesi-97d2bf.netlify.app/" element={<Home />} />
+            <Route path="https://main--elastic-agnesi-97d2bf.netlify.app/education" element={<Education />} />
+            <Route path="https://main--elastic-agnesi-97d2bf.netlify.app/experience" element={<Experience />} />
+            <Route path="https://main--elastic-agnesi-97d2bf.netlify.app/skills" element={<Skills />} />
+            <Route path="https://main--elastic-agnesi-97d2bf.netlify.app/projects" element={<Projects />} />                            
         </Routes> 
       </BrowserRouter>      
            

@@ -33,7 +33,7 @@ let projectHistory = [
         number: 4,
         name: 'Molacuizine',
         technologies: 'Django, SQL, Python, Heroku, HTML, CSS, Javascript, Bootstrap, Stripe, JQuery, AWS, S3, GoogleAPI',
-        description: 'Online food and delivery service',
+        description: 'Online food and delivery service site with full admin control on products and users with online payment system',
         site: 'https://mo-lacuizine.herokuapp.com/',
         github: 'https://github.com/zahur76/molacuizine'
     },
@@ -72,7 +72,7 @@ let projectHistory = [
     {
         number: 9,
         name: 'React/NodeJs-todo',
-        technologies: 'Node.js, Express.js, Sqlite, Postgres, HTML, CSS, Javascript, Bootstrap',
+        technologies: 'React, Node.js, Express.js, Sqlite, Postgres, HTML, CSS, Javascript, Bootstrap',
         description: 'Basic todo app using React as frontend and NodeJs as backend',
         site: 'https://react-node-todo-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/react-node-api'

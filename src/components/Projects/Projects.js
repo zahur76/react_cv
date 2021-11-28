@@ -68,7 +68,15 @@ let projectHistory = [
         description: 'Site to search Star Wars character details by categories with full admin character control using Node.js',
         site: 'https://django-starwars.herokuapp.com/',
         github: 'https://github.com/zahur76/starwar-api'
-    },    
+    },
+    {
+        number: 9,
+        name: 'Raect/NodeJs-todo',
+        technologies: 'Node.js, Express.js, Sqlite, Postgres, HTML, CSS, Javascript, Bootstrap',
+        description: 'Basic todo app using React as frontend and NodeJs as backend',
+        site: 'https://react-node-todo-zahur.herokuapp.com/',
+        github: 'https://github.com/zahur76/react-node-api'
+    },     
 ]
 
 class Projects extends React.Component {

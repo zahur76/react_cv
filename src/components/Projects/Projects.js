@@ -71,7 +71,7 @@ let projectHistory = [
     },
     {
         number: 9,
-        name: 'Raect/NodeJs-todo',
+        name: 'React/NodeJs-todo',
         technologies: 'Node.js, Express.js, Sqlite, Postgres, HTML, CSS, Javascript, Bootstrap',
         description: 'Basic todo app using React as frontend and NodeJs as backend',
         site: 'https://react-node-todo-zahur.herokuapp.com/',

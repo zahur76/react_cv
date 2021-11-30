@@ -73,7 +73,7 @@ let projectHistory = [
         number: 9,
         name: 'React/NodeJs-todo',
         technologies: 'React, Node.js, Express.js, Sqlite, Postgres, HTML, CSS, Javascript, Bootstrap',
-        description: 'Basic todo app using React as frontend and NodeJs as backend',
+        description: 'Basic todo app using React as frontend and NodeJs as backend while managing state with hooks',
         site: 'https://react-node-todo-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/react-node-api'
     },

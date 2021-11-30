@@ -77,7 +77,7 @@ class Home extends React.Component {
                                     <Col xs={3}><a href="/education" id={this.setActiveEdu()} className="link-1 btn text-center">Education</a></Col>
                                     <Col xs={3}><a href="/experience" id={this.setActiveExp()} className="link-2 btn text-center">Experience</a></Col>
                                     <Col xs={3}><a href="/skills" id={this.setActiveSkills()} className="link-3 btn text-center">Skills</a></Col>
-                                    <Col xs={3}><a href="/projects" id={this.setActiveProjects()} className="link-4 btn text-center">Projects</a></Col>
+                                    <Col xs={3}><a href="/projects" id={this.setActiveProjects()} className="link-4 btn text-center">Portfolio</a></Col>
                                 </Row>                            
                             </Col>
                         </Row>                  

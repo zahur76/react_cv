@@ -76,7 +76,15 @@ let projectHistory = [
         description: 'Basic todo app using React as frontend and NodeJs as backend',
         site: 'https://react-node-todo-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/react-node-api'
-    },     
+    },
+    {
+        number: 10,
+        name: 'Redux React Star Wars',
+        technologies: 'React, Redux, HTML, CSS, Javascript, Bootstrap',
+        description: 'Star Wars Character Search site making use of Redux to manage application state',
+        site: 'https://clever-albattani-e81087.netlify.app/',
+        github: 'https://github.com/zahur76/redux-react-example'
+    },      
 ]
 
 class Projects extends React.Component {

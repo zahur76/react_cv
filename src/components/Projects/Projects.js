@@ -84,7 +84,15 @@ let projectHistory = [
         description: 'Star Wars Character Search site making use of Redux to manage application state',
         site: 'https://clever-albattani-e81087.netlify.app/',
         github: 'https://github.com/zahur76/redux-react-example'
-    },      
+    },
+    {
+        number: 11,
+        name: 'Hybrid Django React Todo app',
+        technologies: 'React, Django, RestAPI, HTML, CSS, Javascript, Bootstrap',
+        description: 'A React-Django Hybrid Todo app making use of Django rest for API requests in the bakground while using React in the Frontend',
+        site: 'https://django-react-todo-zahur.herokuapp.com/',
+        github: 'https://github.com/zahur76/django-react-todo'
+    },       
 ]
 
 class Projects extends React.Component {

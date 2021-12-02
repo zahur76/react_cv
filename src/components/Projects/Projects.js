@@ -89,7 +89,7 @@ let projectHistory = [
         number: 11,
         name: 'Hybrid Django React Todo app',
         technologies: 'React, Django, RestAPI, HTML, CSS, Javascript, Bootstrap',
-        description: 'A React-Django Hybrid Todo app making use of Django rest for API requests in the bakground while using React in the Frontend',
+        description: 'A React-Django Hybrid Todo app making use of Django rest for API requests in the backend while using React in the Frontend',
         site: 'https://django-react-todo-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/django-react-todo'
     },       
@@ -119,7 +119,7 @@ class Projects extends React.Component {
                     <Col xs={1} md={3}>                    
                     </Col>
                     <Col xs={10} md={6}>
-                        <h2 className="info-title mt-3 mb-3 bg">PROJECTS</h2>
+                        <h2 className="info-title mt-3 mb-3 bg">PORTFOLIO</h2>
                     </Col>
                     <Col xs={1} md={3}>                                       
                     </Col>

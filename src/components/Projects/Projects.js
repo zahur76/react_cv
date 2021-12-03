@@ -39,7 +39,7 @@ let projectHistory = [
     },
     {
         number: 5,
-        name: 'Star Wars Character search',
+        name: 'Star Wars Character Search: Django',
         technologies: 'Django, SQL, Python, Heroku, HTML, CSS, Javascript, Bootstrap, JQuery, AWS, S3',
         description: 'Site to search Star Wars character details by categories with full admin character control and OTP sign-in',
         site: 'https://django-starwars.herokuapp.com/',
@@ -63,7 +63,7 @@ let projectHistory = [
     },
     {
         number: 8,
-        name: 'Star Wars Character Search 2',
+        name: 'Star Wars Character Search: NodeJS',
         technologies: 'Node.js, Express.js, SQL, HTML, CSS, Javascript, Bootstrap',
         description: 'Site to search Star Wars character details by categories with full admin character control using Node.js',
         site: 'https://django-starwars.herokuapp.com/',
@@ -89,7 +89,7 @@ let projectHistory = [
         number: 11,
         name: 'Hybrid Django React Todo app',
         technologies: 'React, Django, RestAPI, HTML, CSS, Javascript, Bootstrap',
-        description: 'A React-Django Hybrid Todo app making use of Django rest for API requests in the backend while using React in the Frontend',
+        description: 'A React-Django Hybrid Todo app making use of Django rest for API requests in the backend while using React in the Frontend. Also includes sign in feature for CRUD operations and search bar',
         site: 'https://django-react-todo-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/django-react-todo'
     },       

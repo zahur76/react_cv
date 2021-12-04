@@ -12,7 +12,8 @@ let projectHistory = [
         technologies: 'HTML, CSS, Bootstrap',
         description: 'Site to Promote Tourism in Mauritius',
         site: 'https://zahur76.github.io/MilestoneProject1/',
-        github: 'https://github.com/zahur76/MilestoneProject1'
+        github: 'https://github.com/zahur76/MilestoneProject1',
+        comment: ''
     },
     {
         number: 2,
@@ -20,7 +21,8 @@ let projectHistory = [
         technologies: 'HTML, CSS, Javascript, Bootstrap',
         description: 'Star Wars Themed memory match game',
         site: 'https://zahur76.github.io/MilestoneProject_2/',
-        github: 'https://github.com/zahur76/MilestoneProject_2'
+        github: 'https://github.com/zahur76/MilestoneProject_2',
+        comment: ''
     },
     {
         number: 3,
@@ -28,7 +30,8 @@ let projectHistory = [
         technologies: 'Flask, MongoDB, Python, Heroku, HTML, CSS, Javascript, Materialize',
         description: 'Site for artists to showcase their art work to potential buyers and other enthusiasts in the Mauritian market',
         site: 'https://artist-for-life.herokuapp.com/',
-        github: 'https://github.com/zahur76/MilestoneProject_3'
+        github: 'https://github.com/zahur76/MilestoneProject_3',
+        comment: ''
     },
     {
         number: 4,
@@ -36,7 +39,8 @@ let projectHistory = [
         technologies: 'Django, SQL, Python, Heroku, HTML, CSS, Javascript, Bootstrap, Stripe, JQuery, AWS, S3, GoogleAPI',
         description: 'Online food and delivery service site with full admin control on products and users with online payment system',
         site: 'https://mo-lacuizine.herokuapp.com/',
-        github: 'https://github.com/zahur76/molacuizine'
+        github: 'https://github.com/zahur76/molacuizine',
+        comment: ''
     },
     {
         number: 5,
@@ -44,7 +48,8 @@ let projectHistory = [
         technologies: 'Django, SQL, Python, Heroku, HTML, CSS, Javascript, Bootstrap, JQuery, AWS, S3',
         description: 'Site to search Star Wars character details by categories with full admin character control and OTP sign-in',
         site: 'https://django-starwars.herokuapp.com/',
-        github: 'https://github.com/zahur76/starwars-django-main'
+        github: 'https://github.com/zahur76/starwars-django-main',
+        comment: ''
     },
     {
         number: 6,
@@ -52,7 +57,8 @@ let projectHistory = [
         technologies: 'Django, SQL, Python, Heroku, HTML, CSS, Javascript, Bootstrap, JQuery, AWS, S3',
         description: 'Application to implement quiz in workplace using employee number with security to prevent answer manipulation and full admin control on question database and results',
         site: 'https://django-quiz-zahur.herokuapp.com/',
-        github: 'https://github.com/zahur76/workforce-django'
+        github: 'https://github.com/zahur76/workforce-django',
+        comment: 'Request username and password on zahurmeerun@hotmail.com for test'
     },    
     {
         number: 7,
@@ -60,7 +66,8 @@ let projectHistory = [
         technologies: 'Django, SQL, Python, Heroku, HTML, CSS, Javascript, Bootstrap, JQuery, AWS, S3',
         description: 'Site to manage Employee records with full admin control with emphasis on sick and annual leave',
         site: 'https://workforce-django.herokuapp.com/',
-        github: 'https://github.com/zahur76/django-quiz'
+        github: 'https://github.com/zahur76/django-quiz',
+        comment: 'Request username and password on zahurmeerun@hotmail.com for test'
     },
     {
         number: 8,
@@ -68,7 +75,8 @@ let projectHistory = [
         technologies: 'Node.js, Express.js, SQL, HTML, CSS, Javascript, Bootstrap',
         description: 'Site to search Star Wars character details by categories with full admin character control using Node.js',
         site: 'https://django-starwars.herokuapp.com/',
-        github: 'https://github.com/zahur76/starwar-api'
+        github: 'https://github.com/zahur76/starwar-api',
+        comment: ''
     },
     {
         number: 9,
@@ -76,7 +84,8 @@ let projectHistory = [
         technologies: 'React, Node.js, Express.js, Sqlite, Postgres, HTML, CSS, Javascript, Bootstrap',
         description: 'Basic todo app using React as frontend and NodeJs as backend while managing state with hooks',
         site: 'https://react-node-todo-zahur.herokuapp.com/',
-        github: 'https://github.com/zahur76/react-node-api'
+        github: 'https://github.com/zahur76/react-node-api',
+        comment: ''
     },
     {
         number: 10,
@@ -84,7 +93,8 @@ let projectHistory = [
         technologies: 'React, Redux, HTML, CSS, Javascript, Bootstrap',
         description: 'Star Wars Character Search site making use of Redux to manage application state',
         site: 'https://clever-albattani-e81087.netlify.app/',
-        github: 'https://github.com/zahur76/redux-react-example'
+        github: 'https://github.com/zahur76/redux-react-example',
+        comment: ''
     },
     {
         number: 11,
@@ -92,7 +102,8 @@ let projectHistory = [
         technologies: 'React, Django, RestAPI, HTML, CSS, Javascript, Bootstrap',
         description: 'A React-Django Hybrid Todo app making use of Django rest for API requests in the backend while using React in the Frontend. Also includes sign in feature for CRUD operations and search bar',
         site: 'https://django-react-todo-zahur.herokuapp.com/',
-        github: 'https://github.com/zahur76/django-react-todo'
+        github: 'https://github.com/zahur76/django-react-todo',
+        comment: ''
     },       
 ]
 
@@ -117,6 +128,7 @@ class Projects extends React.Component {
                                     <Col className="text-center mb-1" xs={12}>{element.description}</Col>
                                     <Col className="text-center" xs={12}><a href={element.site} target="_blank" >Live Site</a></Col>
                                     <Col className="text-center mb-2" xs={12}><a href={element.github} target="_blank" >Github Repository</a></Col>
+                                    <Col className="text-center mb-2" xs={12}>{element.comment}</Col>
                                 </Row>                       
                             </Accordion.Body>
                             </Accordion.Item>

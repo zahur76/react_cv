@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Accordion } from 'react-bootstrap';
 import Home from '../Home/Home'
 
 let projectHistory = [
@@ -49,7 +50,7 @@ let projectHistory = [
         number: 6,
         name: 'Django Quiz',
         technologies: 'Django, SQL, Python, Heroku, HTML, CSS, Javascript, Bootstrap, JQuery, AWS, S3',
-        description: 'Site to implement quiz in workplace using employee number with protection to prevent answer manipulation',
+        description: 'Application to implement quiz in workplace using employee number with security to prevent answer manipulation and full admin control on question database and results',
         site: 'https://django-quiz-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/workforce-django'
     },    
@@ -99,16 +100,30 @@ class Projects extends React.Component {
     renderProjectHistory(){
         return projectHistory.map(element=>{
             return  <Row>
-                        <Col xs={1} md={3}></Col>
-                        <Col className="h3 border-bottom border-secondary project-name" xs={10} md={6}>{element.number}.{element.name}</Col>
-                        <Col xs={1} md={3}></Col>
-                        <Col className="h4 text-center" xs={12}>Technologies used</Col>
-                        <Col className="text-center mb-1" xs={12}>{element.technologies}</Col>
-                        <Col className="h4 text-center" xs={12}>Description</Col>
-                        <Col className="text-center mb-1" xs={12}>{element.description}</Col>
-                        <Col className="text-center" xs={12}><a href={element.site} target="_blank" >Live Site</a></Col>
-                        <Col className="text-center mb-2" xs={12}><a href={element.github} target="_blank" >Github Repository</a></Col>
-                    </Row>
+                    <Col xs={2} md={1} lg={2}></Col>
+                    <Col xs={12} md={10} lg={8}>              
+                        <Accordion>
+                            <Accordion.Item eventKey="0">
+                            <Accordion.Header>
+                                    <Col xs={1} md={2}></Col>
+                                    <Col className="h4 project-name" xs={10} md={7}>{element.number}.{element.name}</Col>
+                                    <Col xs={1} md={3}></Col>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                <Row>                            
+                                    <Col className="h4 text-center" xs={12}>Technologies used</Col>
+                                    <Col className="text-center mb-1" xs={12}>{element.technologies}</Col>
+                                    <Col className="h4 text-center" xs={12}>Description</Col>
+                                    <Col className="text-center mb-1" xs={12}>{element.description}</Col>
+                                    <Col className="text-center" xs={12}><a href={element.site} target="_blank" >Live Site</a></Col>
+                                    <Col className="text-center mb-2" xs={12}><a href={element.github} target="_blank" >Github Repository</a></Col>
+                                </Row>                       
+                            </Accordion.Body>
+                            </Accordion.Item>
+                        </Accordion>
+                    </Col>
+                    <Col xs={0} md={1} lg={2}></Col>
+                    </Row>            
         })
     }
     render(){
@@ -119,7 +134,7 @@ class Projects extends React.Component {
                     <Col xs={1} md={3}>                    
                     </Col>
                     <Col xs={10} md={6}>
-                        <h2 className="info-title mt-3 mb-3 bg">PORTFOLIO</h2>
+                        <h2 className="info-title mt-3 mb-3">PORTFOLIO</h2>
                     </Col>
                     <Col xs={1} md={3}>                                       
                     </Col>

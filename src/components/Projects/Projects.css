@@ -1,3 +1,13 @@
 .project-name {
     font-style: italic;
 }
+
+.accordion-button {
+    background-color:lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 576px){   
+    .project-name {
+        font-size: 20px;
+    }  
+}

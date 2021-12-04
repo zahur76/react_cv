@@ -87,7 +87,7 @@ class Home extends React.Component {
                     <Col xs={1} md={3}>                    
                     </Col>
                     <Col xs={10} md={6}>
-                        <h2 className="info-title mt-3 bg">PERSONAL STATEMENT</h2>
+                        <h2 className="info-title mt-3">PERSONAL STATEMENT</h2>
                     </Col>
                     <Col xs={1} md={3}>                                       
                     </Col>

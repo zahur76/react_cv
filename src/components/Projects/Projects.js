@@ -104,7 +104,16 @@ let projectHistory = [
         site: 'https://django-react-todo-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/django-react-todo',
         comment: ''
-    },       
+    },
+    {
+        number: 12,
+        name: 'Hybrid Django React Astronomy App',
+        technologies: 'React, Django, RestAPI, HTML, CSS, Javascript, Bootstrap',
+        description: 'A React-Django Hybrid Astronomy app making use of Django rest for API requests in the backend while using React in the Frontend. Also includes sign in feature for CRUD operations and search bar',
+        site: 'https://django-react-universe-zahur.herokuapp.com/',
+        github: 'https://github.com/zahur76/django-react-universe',
+        comment: ''
+    },        
 ]
 
 class Projects extends React.Component {

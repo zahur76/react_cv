@@ -113,7 +113,16 @@ let projectHistory = [
         site: 'https://django-react-universe-zahur.herokuapp.com/',
         github: 'https://github.com/zahur76/django-react-universe',
         comment: ''
-    },        
+    },
+    {
+        number: 13,
+        name: 'Mgi site',
+        technologies: 'Flask, SQLalchemy, HTML, CSS, Bootstrap, CSS',
+        description: 'Build a site for client involved in the IT industry.',
+        site: 'https://staging.mgenesysinnov.com/',
+        github: 'https://gitlab.com/mgenesysinnov/mgi',
+        comment: 'Main assignments was to code registration, page, language, donation and accessibility modules. The page and language module involved programming an interface for the client whereby the pages could be customed designed and translated by admin.'
+    },    
 ]
 
 class Projects extends React.Component {

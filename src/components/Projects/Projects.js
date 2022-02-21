@@ -117,12 +117,21 @@ let projectHistory = [
     {
         number: 13,
         name: 'Mgi site',
-        technologies: 'Flask, SQLalchemy, HTML, CSS, Bootstrap, CSS',
+        technologies: 'Flask, SQLalchemy, HTML, CSS, Bootstrap, CSS, MySQL',
         description: 'Build a site for client involved in the IT industry.',
         site: 'https://staging.mgenesysinnov.com/',
         github: 'https://gitlab.com/mgenesysinnov/mgi',
         comment: 'Main assignments was to code registration, page, language, donation and accessibility modules. The page and language module involved programming an interface for the client whereby the pages could be customed designed and translated by admin.'
-    },    
+    },
+    {
+        number: 14,
+        name: 'API',
+        technologies: 'Django, Python, Django Rest Framework, postgresql',
+        description: 'Code an API to connect web scraping application to database',
+        site: 'https://stratalis-property.herokuapp.com/',
+        github: 'https://github.com/zahur76/property_api',
+        comment: 'My duty was to develop an API to so to create and update data sent from a web scraping application to a database. The API would also produce a list of data which needed to be updated'
+    },     
 ]
 
 class Projects extends React.Component {
